@@ -38,6 +38,6 @@ function rerollTo() {
 
 function goToGame() {
     if (from && to) {
-        window.location = `/game.html?from=${encodeURIComponent(from)}&to=${encodeURIComponent(to)}`;
+        window.location = `./game.html?from=${encodeURIComponent(from)}&to=${encodeURIComponent(to)}`;
     }
 }
