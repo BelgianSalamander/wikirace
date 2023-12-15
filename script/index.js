@@ -3,7 +3,7 @@ let data = [];
 let from, to;
 
 function onLoad() {
-    fetch("/res/list.json", {
+    fetch("./res/list.json", {
         "cache": "force-cache"
     }).then(res => res.json()).then(res => {
         data = res;
