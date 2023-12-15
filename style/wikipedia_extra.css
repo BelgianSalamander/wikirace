@@ -1,0 +1,20 @@
+.box-Multiple_issues, .box-Expand_section, .box-More_citations_needed, .box-Technical, .box-More_footnotes {
+    display: none;
+}
+
+.navbar {
+    display: none;
+}
+
+.mw-editsection, .reference {
+    display: none;
+}
+
+#article-header {
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+    line-height: 1.35em;
+}
+
+.noprint {
+    display: none;
+}

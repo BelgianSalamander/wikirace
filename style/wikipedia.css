@@ -1,0 +1,206 @@
+#article-header {
+    box-shadow: 0 1px #a2a9b1;
+    margin-bottom: 10px;
+
+    padding: 3px;
+
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+    line-height: 1.375;
+    font-size: 1.8em;
+    font-weight: normal;
+}
+
+.wikipedia-hatnote {
+    font-style: italic;
+}
+
+div.wikipedia-hatnote {
+    padding-left: 1.6em;
+    margin-bottom: 0.5em;
+}
+
+.wikipedia-infobox, .wikipedia-sidebar {
+    border: 1px solid #a2a9b1;
+    border-spacing: 3px;
+    background-color: #f8f9fa;
+    color: black;
+    margin: 0.5em 0 0.5em 1em;
+    padding: 0.2em;
+    float: right;
+    clear: right;
+    font-size: 88%;
+    line-height: 1.5em;
+    width: 22em;
+}
+
+.wikipedia-infobox .wikipedia-infobox-header, .wikipedia-infobox .wikipedia-infobox-subheader, .wikipedia-infobox .wikipedia-infobox-image, .wikipedia-infobox .wikipedia-infobox-full-data, .wikipedia-infobox .wikipedia-infobox-below {
+    text-align: center;
+}
+
+.wikipedia-infobox-label, .wikipedia-infobox-data, .wikipedia-infobox th, .wikipedia-infobox td {
+    text-align: left;
+}
+
+.wikipedia-infobox, .wikipedia-infobox-label, .wikipedia-infobox-above, .wikipedia-infobox-full-data, .wikipedia-infobox-data, .wikipedia-infobox-below, .wikipedia-infobox-subheader, .wikipedia-infobox-image, .wikipedia-infobox-navbar, .wikipedia-infobox th, .wikipedia-infobox td {
+    vertical-align: top;
+}
+
+img.copied-wikipedia-element {
+    border: 0;
+    vertical-align: middle;
+}
+
+.wikipedia-mw-editsection, .wikipedia-reference {
+    display: none;
+}
+
+a.copied-wikipedia-element {
+    text-decoration: none;
+    font-style: normal;
+
+    word-wrap: break-word;
+}
+
+a.copied-wikipedia-element:hover {
+    text-decoration: underline;
+}
+
+p.copied-wikipedia-element {
+    margin: 0.5em 0 1em 0;
+}
+
+h2.copied-wikipedia-element {
+    margin-top: 1em;
+    font-size: 1.5em;
+
+    margin-bottom: 0.25em;
+    padding: 0;
+    font-family: 'Linux Libertine','Georgia','Times','Source Serif Pro',serif;
+    line-height: 1.375;
+    font-weight: normal;
+    border-bottom: 1px solid #a2a9b1;
+
+    overflow: hidden;
+}
+
+h1.copied-wikipedia-element, h2.copied-wikipedia-element, h3.copied-wikipedia-element, h4.copied-wikipedia-element, h5.copied-wikipedia-element, h6.copied-wikipedia-element  {
+    color: #000000;
+}
+
+ul.copied-wikipedia-element {
+    list-style-image: url(https://en.wikipedia.org/w/skins/Vector/resources/skins.vector.styles/images/bullet-icon.svg?d4515);
+
+    margin: 0.3em 0 0 1.6em;
+}
+
+.wikipedia-hlist ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wikipedia-hlist li {
+    margin: 0;
+    display: inline;
+
+    margin-right:2px;
+}
+
+.wikipedia-hlist li::after {
+    display: inline-block;
+    content: "·";
+    font-weight: bold;
+
+    width: 7px;
+}
+
+.wikipedia-hlist li:last-child::after {
+    content: none;
+}
+
+.wikipedia-plainlist ul {
+    line-height: inherit;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+figure.copied-wikipedia-element[typeof~="mw:File/Thumb"], figure.copied-wikipedia-element[typeof~="mw:File/Frame"] {
+    margin: 0.5em 0 1.3em 1.4em;
+
+    clear: right;
+    float: right;
+
+    border: 1px solid #c8ccd1;
+    border-bottom: 0;
+    background-color: #f8f9fa;
+
+    display: table;
+    text-align: center;
+    border-collapse: collapse;
+    line-height: 0;
+}
+
+.wikipedia-thumbinner, figure.copied-wikipedia-element[typeof~="mw:File/Thumb"], figure.copied-wikipedia-element[typeof~="mw:File/Frame"] {
+    min-width: 100px;
+}
+
+figure.copied-wikipedia-element[typeof~="mw:File/Thumb"].wikipedia-mw-halign-left, figure.copied-wikipedia-element[typeof~="mw:File/Frame"].wikipedia-mw-halign-left {
+    margin: 0.5em 1.4em 1.3em 0;
+
+    clear: left;
+    float: left;
+}
+
+figure.copied-wikipedia-element[typeof~="mw:File/Thumb"] > :not(figcaption) .wikipedia-mw-file-element, figure.copied-wikipedia-element[typeof~="mw:File/Frame"] > :not(figcaption) .wikipedia-mw-file-element {
+    margin: 3px;
+}
+
+figure.copied-wikipedia-element[typeof~="mw:File/Thumb"] > figcaption, figure.copied-wikipedia-element[typeof~="mw:File/Frame"] > figcaption {
+    text-align: left;
+    border: 1px solid #c8ccd1;
+    border-top: 0;
+    background-color: #f8f9fa;
+    font-size: 88.4%;
+
+    display: table-caption;
+    caption-side: bottom;
+    line-height: 1.4em;
+    word-break: break-word;
+    padding: 0 6px 6px 6px;
+}
+
+.wikipedia-infobox .wikipedia-infobox-above, .wikipedia-infobox .wikipedia-infobox-title, .wikipedia-infobox caption {
+    font-weight: bold;
+    text-align: center;
+}
+
+.wikipedia-box-Multiple_issues, .wikipedia-box-Expand_section, .wikipedia-box-More_citations_needed, wikipedia-box-Technical {
+    display: none;
+}
+
+.wikipedia-navbar {
+    display: none;
+}
+
+.wikipedia-wikitable {
+    background-color: #f8f9fa;
+    color: #202122;
+    margin: 1em 0;
+    border: 1px solid #a2a9b1;
+    border-collapse: collapse;
+}
+
+.wikipedia-wikitable > tr > th, .wikipedia-wikitable > * > tr > th {
+    background-color: #eaecf0;
+    text-align: center;
+}
+
+.wikipedia-wikitable > tr > th, .wikipedia-wikitable > tr > td, .wikipedia-wikitable > * > tr > th, .wikipedia-wikitable > * > tr > td {
+    border: 1px solid #a2a9b1;
+    padding: 0.2em 0.4em;
+}
+
+dd.copied-wikipedia-element {
+    margin-left: 1.6em;
+    margin-right: 0;
+}

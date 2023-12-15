@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Wikipedia Race</title>
+
+        <link rel="stylesheet" href = "/style/global.css">
+        <link rel="stylesheet" href = "/style/game.css">
+        <link rel="stylesheet" href = "/style/wikipedia_direct.css">
+        <link rel="stylesheet" href = "/style/wikipedia_extra.css">
+        <script src="/script/main.js"></script>
+    </head>
+    <body onload="onLoad()">
+        <header>
+            <h1 id = "target"></h1>
+            <h1 id = "num-clicks">0 Clicks</h1>
+            <h1 id = "timer">0 Seconds Elapsed</h1>
+        </header>
+
+        <div id="wikipedia-content">
+
+        </div>
+
+        <div id="win-popup" style="display:none">
+            <h1>You win!</h1>
+
+            <span id = "summary">You got from <a id = "win-from-link"></a> to <a id = "win-to-link"></a> in <span id = "win-num-seconds"></span> seconds and <span id = "win-num-clicks"></span> clicks!</span>
+    
+
+            <table class = "wikitable" id = "path-table">
+                <caption>Your Path</caption>
+                <tr>
+                    <th scope="col">Index</th>
+                    <th scope="col">Article</th>
+                    <th scope="col">Thumbnail</th>
+                </tr>
+            </table>
+
+            <a href = "/">Return to home page</a>
+        </div>
+    </body>
+</html>
