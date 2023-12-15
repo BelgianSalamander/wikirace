@@ -131,7 +131,7 @@ function win() {
         pathTable.appendChild(row);
     }
 
-    fetch(`http://en.wikipedia.org/w/api.php?origin=*&action=query&titles=${articlePath.join("|")}&prop=pageimages&format=json&pithumbsize=100`).then(res => res.json()).then(res => {
+    fetch(`https://en.wikipedia.org/w/api.php?origin=*&action=query&titles=${articlePath.join("|")}&prop=pageimages&format=json&pithumbsize=100`).then(res => res.json()).then(res => {
         for (page_k in res.query.pages) {
             let page = res.query.pages[page_k];
             if ("thumbnail" in page) {
