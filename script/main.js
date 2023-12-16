@@ -250,3 +250,12 @@ function loadContent(article) {
         }
     })
 }
+
+function copyLink() {
+    navigator.clipboard.writeText(window.location);
+
+    document.getElementById("copied-popup").style.opacity = 0.7;
+    setTimeout(() => {
+        document.getElementById("copied-popup").style.opacity = 0.0;
+    }, 2000);
+}
