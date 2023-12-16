@@ -10,6 +10,8 @@ let target_url;
 
 let won = false;
 
+window.onbeforeunload = () => "Are you sure you want to leave this page? Your progress will be lost!";
+
 function urlToTitle(s) {
     return decodeURIComponent(s).replaceAll("_", " ")
 }
